@@ -35,6 +35,8 @@ public class Pesquisar_ClienteDono extends javax.swing.JInternalFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         textArea_informacoesClienteDono = new javax.swing.JTextArea();
 
+        setTitle("Pesquisar Cliente/Dono");
+
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Pesquisar"));
 
         jLabel1.setText("NOME:");

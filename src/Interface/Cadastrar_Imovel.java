@@ -39,6 +39,8 @@ public class Cadastrar_Imovel extends javax.swing.JInternalFrame {
         jPanel2 = new javax.swing.JPanel();
         botao_cadastrarImovel = new javax.swing.JButton();
 
+        setTitle("Cadastrar Imóvel");
+
         jLabel1.setText("DONO:");
 
         jLabel2.setText("TIPO:");
@@ -48,6 +50,11 @@ public class Cadastrar_Imovel extends javax.swing.JInternalFrame {
         jLabel3.setText("FOTOS:");
 
         botao_anexarFotos.setText("ANEXAR");
+        botao_anexarFotos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botao_anexarFotosActionPerformed(evt);
+            }
+        });
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Descrição do Imóvel", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP));
 
@@ -135,6 +142,12 @@ public class Cadastrar_Imovel extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void botao_anexarFotosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao_anexarFotosActionPerformed
+        Anexar telaAnexarFotos = new Anexar();
+        //desktop_principal.add(telaAnexarFotos);
+        telaAnexarFotos.setVisible(true);
+    }//GEN-LAST:event_botao_anexarFotosActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -9,12 +9,12 @@ package Interface;
  *
  * @author Lêdo
  */
-public class Pesquisar_Imoveis extends javax.swing.JInternalFrame {
+public class Pesquisar_Imovel extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form Pesquisar_Imoveis
      */
-    public Pesquisar_Imoveis() {
+    public Pesquisar_Imovel() {
         initComponents();
     }
 
@@ -31,6 +31,8 @@ public class Pesquisar_Imoveis extends javax.swing.JInternalFrame {
         comboBox_pesquisarImovelTipo = new javax.swing.JComboBox<>();
         jPanel1 = new javax.swing.JPanel();
         botao_pesquisarImoveis = new javax.swing.JButton();
+
+        setTitle("Pesquisar Imóvel");
 
         jLabel1.setText("TIPO:");
 
