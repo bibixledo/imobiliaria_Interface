@@ -99,6 +99,9 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menu_registroAluguel">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/dinheiro2.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Aluguel"/>
               </Properties>
               <Events>
@@ -107,6 +110,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menu_registroVenda">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/dinheiro3.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Venda"/>
               </Properties>
               <Events>
