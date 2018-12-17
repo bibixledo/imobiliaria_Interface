@@ -31,8 +31,7 @@ public class Principal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        desktop_principal.setBackground(new java.awt.Color(255, 204, 153));
-        desktop_principal.setForeground(new java.awt.Color(255, 204, 153));
+        desktop_principal.setBackground(new java.awt.Color(255, 255, 204));
 
         javax.swing.GroupLayout desktop_principalLayout = new javax.swing.GroupLayout(desktop_principal);
         desktop_principal.setLayout(desktop_principalLayout);
@@ -185,7 +184,7 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_menu_registroAluguelActionPerformed
 
     private void menu_registroVendaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_registroVendaActionPerformed
-         Registro_Venda telaRegistroVenda = new Registro_Venda ();
+        Registro_Venda telaRegistroVenda = new Registro_Venda ();
         desktop_principal.add(telaRegistroVenda);
         telaRegistroVenda.setVisible(true);
        

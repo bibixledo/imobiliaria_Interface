@@ -117,7 +117,6 @@ public class Login extends javax.swing.JFrame {
             /*Abre a tela principal*/
             Principal telaPrincipal= new Principal();
             telaPrincipal.setVisible(true);
-            this.setVisible(false);
         }
     }//GEN-LAST:event_botao_entrarActionPerformed
 
