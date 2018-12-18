@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Interface;
 
 /**
@@ -11,9 +6,6 @@ package Interface;
  */
 public class Registro_Aluguel extends javax.swing.JInternalFrame {
 
-    /**
-     * Creates new form Registros
-     */
     public Registro_Aluguel() {
         initComponents();
     }
@@ -85,6 +77,11 @@ public class Registro_Aluguel extends javax.swing.JInternalFrame {
         );
 
         botao_adicionar.setText("+");
+        botao_adicionar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botao_adicionarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -125,6 +122,12 @@ public class Registro_Aluguel extends javax.swing.JInternalFrame {
     private void botao_pesquisarRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao_pesquisarRegistroActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_botao_pesquisarRegistroActionPerformed
+
+    private void botao_adicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao_adicionarActionPerformed
+        Adicionar_Transacao telaAdicionarT = new Adicionar_Transacao();
+        //desktop_principal.add(telaAdicionarT);
+        telaAdicionarT.setVisible(true);
+    }//GEN-LAST:event_botao_adicionarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

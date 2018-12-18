@@ -4,8 +4,8 @@ package Interface;
  *
  * @author Lêdo
  */
-public class Principal extends javax.swing.JFrame {
-    public Principal() {
+public class Principal_Corretor extends javax.swing.JFrame {
+    public Principal_Corretor() {
         initComponents();
     }
 
@@ -17,7 +17,6 @@ public class Principal extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         menu_cadastrar = new javax.swing.JMenu();
         menu_cadastrarDono = new javax.swing.JMenuItem();
-        menu_cadastrarCliente = new javax.swing.JMenuItem();
         menu_cadastrarImovel = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         menu_pesquisarImovel = new javax.swing.JMenuItem();
@@ -55,15 +54,6 @@ public class Principal extends javax.swing.JFrame {
             }
         });
         menu_cadastrar.add(menu_cadastrarDono);
-
-        menu_cadastrarCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/user_add.png"))); // NOI18N
-        menu_cadastrarCliente.setText("Cliente");
-        menu_cadastrarCliente.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menu_cadastrarClienteActionPerformed(evt);
-            }
-        });
-        menu_cadastrar.add(menu_cadastrarCliente);
 
         menu_cadastrarImovel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/casa1.png"))); // NOI18N
         menu_cadastrarImovel.setText("Imovel");
@@ -159,18 +149,13 @@ public class Principal extends javax.swing.JFrame {
         telaCadastrarImovel.setVisible(true);
     }//GEN-LAST:event_menu_cadastrarImovelActionPerformed
 
-    private void menu_cadastrarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_cadastrarClienteActionPerformed
-        Cadastrar_Cliente telaCadastrarCliente = new  Cadastrar_Cliente();
-        desktop_principal.add(telaCadastrarCliente);
-        telaCadastrarCliente.setVisible(true);
-    }//GEN-LAST:event_menu_cadastrarClienteActionPerformed
 
     private void menu_pesquisarClienteDonoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_pesquisarClienteDonoActionPerformed
-        Pesquisar_ClienteDono telaPesquisarClienteDono = new  Pesquisar_ClienteDono();
+        Pesquisar_ClienteDonoCorretor telaPesquisarClienteDono = new  Pesquisar_ClienteDonoCorretor();
         desktop_principal.add(telaPesquisarClienteDono);
         telaPesquisarClienteDono.setVisible(true);
     }//GEN-LAST:event_menu_pesquisarClienteDonoActionPerformed
-
+ 
     private void menu_pesquisarImovelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_pesquisarImovelActionPerformed
         Pesquisar_Imovel telaPesquisarImovel = new  Pesquisar_Imovel();
         desktop_principal.add(telaPesquisarImovel);
@@ -207,21 +192,20 @@ public class Principal extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Principal_Corretor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Principal_Corretor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Principal_Corretor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Principal_Corretor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Principal().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new Principal_Corretor().setVisible(true);
         });
     }
 
@@ -234,7 +218,6 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu menu_cadastrar;
-    private javax.swing.JMenuItem menu_cadastrarCliente;
     private javax.swing.JMenuItem menu_cadastrarDono;
     private javax.swing.JMenuItem menu_cadastrarImovel;
     private javax.swing.JMenuItem menu_pesquisarClienteDono;

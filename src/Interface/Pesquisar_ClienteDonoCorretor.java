@@ -9,12 +9,12 @@ package Interface;
  *
  * @author Lêdo
  */
-public class Pesquisar_ClienteDono extends javax.swing.JInternalFrame {
+public class Pesquisar_ClienteDonoCorretor extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form Pesquisar_ClienteDono
      */
-    public Pesquisar_ClienteDono() {
+    public Pesquisar_ClienteDonoCorretor() {
         initComponents();
     }
 
@@ -62,7 +62,7 @@ public class Pesquisar_ClienteDono extends javax.swing.JInternalFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(117, 117, 117)
                         .addComponent(jButton1)))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -75,7 +75,7 @@ public class Pesquisar_ClienteDono extends javax.swing.JInternalFrame {
                 .addComponent(jButton1))
         );
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informações", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informações", 1, 2));
 
         textArea_informacoesClienteDono.setColumns(20);
         textArea_informacoesClienteDono.setRows(5);

@@ -73,6 +73,11 @@ public class Registro_Venda extends javax.swing.JInternalFrame {
         );
 
         botao_adicionar.setText("+");
+        botao_adicionar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botao_adicionarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -109,6 +114,12 @@ public class Registro_Venda extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void botao_adicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao_adicionarActionPerformed
+        Adicionar_Transacao telaAdicionarT = new Adicionar_Transacao();
+        //desktop_principal.add(telaAdicionarT);
+        telaAdicionarT.setVisible(true);
+    }//GEN-LAST:event_botao_adicionarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
