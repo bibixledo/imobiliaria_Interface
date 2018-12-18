@@ -51,6 +51,7 @@ public class Cadastrar_Imovel extends javax.swing.JInternalFrame {
         jLabel10 = new javax.swing.JLabel();
         text_valorImovel = new javax.swing.JTextField();
 
+        setClosable(true);
         setTitle("Cadastrar Imóvel");
 
         jLabel1.setText("DONO:");

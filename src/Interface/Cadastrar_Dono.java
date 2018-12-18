@@ -38,8 +38,6 @@ public class Cadastrar_Dono extends javax.swing.JInternalFrame {
 
         setBorder(null);
         setClosable(true);
-        setMaximizable(true);
-        setResizable(true);
         setTitle("Cadastrar Dono");
 
         jLabel1.setText("NOME:");
@@ -193,7 +191,7 @@ public class Cadastrar_Dono extends javax.swing.JInternalFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
                     .addComponent(jButton1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
                 .addComponent(botao_cadastrarCliente)
                 .addContainerGap())
         );
