@@ -35,6 +35,7 @@ public class Pesquisar_ClienteDonoCorretor extends javax.swing.JInternalFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         textArea_informacoesClienteDono = new javax.swing.JTextArea();
 
+        setClosable(true);
         setTitle("Pesquisar ");
 
         jLabel1.setText("NOME:");

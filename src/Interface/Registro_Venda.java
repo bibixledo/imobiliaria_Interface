@@ -35,6 +35,7 @@ public class Registro_Venda extends javax.swing.JInternalFrame {
         tabela_registro = new javax.swing.JTable();
         botao_adicionar = new javax.swing.JButton();
 
+        setClosable(true);
         setTitle("Registros");
 
         jLabel1.setText("CÓDIGO DO IMÓVEL:");

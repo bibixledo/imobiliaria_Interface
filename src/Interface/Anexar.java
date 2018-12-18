@@ -30,6 +30,7 @@ public class Anexar extends javax.swing.JInternalFrame {
         jPanel1 = new javax.swing.JPanel();
         escolherArquivo = new javax.swing.JFileChooser();
 
+        setClosable(true);
         setTitle("Adicionar Contrato");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

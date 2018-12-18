@@ -35,6 +35,7 @@ public class Pesquisar_Imovel extends javax.swing.JInternalFrame {
         botao_pesquisarImoveis = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
+        setClosable(true);
         setTitle("Pesquisar Imóvel");
 
         jLabel1.setText("TIPO:");
@@ -46,7 +47,7 @@ public class Pesquisar_Imovel extends javax.swing.JInternalFrame {
             }
         });
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informações", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informações", 1, 2));
 
         textArea_informacoesImovel.setColumns(20);
         textArea_informacoesImovel.setRows(5);
